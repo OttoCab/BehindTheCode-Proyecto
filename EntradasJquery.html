@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guzman Nancy, Iramain Alexis, Cabanillas Oscar, Alderete Emanuel, Uncos Sebastian (el mas importante)">
+    <meta name="keywords" content="Blog, Informatica, Lenguajes de Programacion, Frameworks">
+    <meta name="description" content="Blog especializado en el analisis de diferentes Frameworks y Lenguajes de programacion">
+    <link rel="shortcut icon" href="img/coding.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ffca2b7368.js" crossorigin="anonymous"></script>
+    <title>Behind The Code</title>
+</head>
+
+<body background="img/bg-login2.png" class="fuente-proyecto bg-login-ema">
+    <!-- Parte de Otto -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark scroll">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fas fa-user-secret fa-3x"></i>
+                </a>
+                <a class="navbar-brand" href="index.html">
+                    <h4>Behind The Code</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Galeria.html">Galeria de Imagenes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Nosotros.html">Acerca de Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#suscribirse">
+                                <strong>Suscribirse</strong>
+                            </button>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+
+                    <a href="index.html" class="text-secondary">
+                        <i class="fas fa-home px-2"></i>Inicio</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page"><strong>Jquery</strong></li>
+            </ol>
+        </nav>
+        <!-- parte de Sebastian -->
+        <section class="container p-5">
+            <h1 class="display-2 text-center text-light titulo-principal">Behind the Code</h1>
+            <hr class="bg-light">
+        </section>
+        <section class="container-fluid my-5">
+            <section class="row">
+                <article class="col-sm-12 col-md-12 col-lg-2 my-3">
+                    <div class="bg-light p-5 rounded-lg shadow-lg d-none d-md-none d-lg-block">
+                        <div class="text-info text-right">
+                            <h2 class="display-4">13</h2>
+                            <h5 class="lead">Nov.2020</h5>
+                        </div>
+                        <div class="text-center text-dark">
+                            <i class="far fa-user text-primary"></i> by <a href="Nosotros.html" class="text-warning tamtext">Nosotros</a><br>
+                            <i class="far fa-clock text-secondary"></i> Hace 55 minutos <br>
+                            <i class="far fa-eye text-success"></i> 135 <br>
+                            <i class="far fa-comment-alt text-warning"></i> 17
+                        </div>
+                    </div>
+                </article>
+                <article class="col-sm-12 col-md-12 col-lg-6 m-1">
+                    <div class="text-center">
+                        <h2 class="display-3 text-light titulo-principal">Jquery</h2>
+                        <h4 class="mt-2 text-light">¿Qué es Jquery y para qué sirve?</h4>
+                        <img src="img/entradas-de-blog/jquery-1.svg" alt="Angular responsive" class="w-100 my-5">
+                    </div>
+                    <article class="text-light text-justify">
+                        <p class="lead">
+                            jQuery es una librería Javascript para el desarrollo de sitios web basada en la manipulación del DOM. Es una de las más populares herramientas para desarrollo frontend.
+                        </p>
+                        <p>
+                            La principal utilidad de jQuery radica en la creación de código que es compatible en todos los navegadores, de modo que puedes escribir un único código Javascript que funcionará en cualquier browser. Además tiene una gran cantidad de funciones de utilidad,
+                            que permiten realizar muchas cosas con muy poco esfuerzo. El API de jQuery es sencillo y muy estable, ya que es prácticamente el mismo en cualquiera de sus versiones.
+                        </p>
+                        <hr class="bg-light">
+                        <h2 class="my-3 text-center">Por qué nació jQuery</h2>
+                        <p>
+                            jQuery, así como otras librerías tempranas de Javascript nacieron para solucionar una carencia tradicional del lenguaje: la compatibilidad entre navegadores y el trabajo de una manera sencilla con funcionalidades que no todos aportan.
+                        </p>
+                        <p>
+                            Para entender el motivo de la creación de jQuery tenemos por tanto que remontarnos a la época de la "guerra de navegadores", donde cada cliente web hacía un uso particular de los estándares y procuraba destacarse por encima de otros publicando sus funcionalidades
+                            propietarias.
+                        </p>
+                        <p>
+                            Por tanto, en el año 2005 (lanzamiento inicial de jQuery) nos encontrábamos ante un panorama en el que era difícil desarrollar código de cliente para la web con Javascipt, dado que cada navegador tenía sus particularidades. A los desarrolladores nos tocaba
+                            lidiar con esas diferencias, creando un código compatible con todos (código "cross-browser"). Esto hacía que, incluso las funcionalidades más elementales, fueran muy complicadas de implementar y que se tuviera que duplicar
+                            o triplicar el trabajo si queríamos que una web pudiera usarse perfectamente en todos los navegadores populares.
+                        </p>
+                        <p>
+                            Entonces, jQuery y otras librerías alternativas, vinieron para salvar el desarrollo frontend y comenzar una nueva etapa en el mundo de la web. Estas librerías proponían un API homogéneo para desarrollar todo tipo de funcionalidades en el navegador. De
+                            este modo, se podían usar las funciones que jQuery facilitaba y que el código se ejecutase sin mayores problemas en cualquier plataforma, a pesar que cada navegador tuviera sus diferencias. Gracias a ello, el trabajo para un
+                            desarrollador frontend se volvió mucho más sencillo y agradecido y el mantenimiento de las interfaces dinámicas para la web se convirtió en una tarea viable.
+                        </p>
+                        <p>
+                            Además jQuery ofreció una interfaz de programación para hacer funcionalidades de manera rápida, que de hacerse manualmente daría mucho más trabajo. Gracias a ello, los desarrolladores podían escribir mucho menos código para hacer más cosas y podían incorporar
+                            funcionalidades avanzadas para aquella época de una manera muy sencilla.
+                        </p>
+                        <p>
+                            Paralelamente, jQuery creó una manera muy práctica para reutilizar y compartir código en la comunidad, en módulos independientes capaces de realizar todo tipo de funcionalidades. Nos referimos a los plugins de jQuery, que permitieron que los desarrolladores
+                            no tuvieran que reinventar la rueda constantemente y ofrecieran una colección extensa de interfaces y funcionalidades avanzadas, que somos capaces de incorporar de una manera inmediata en cualquier web que lo necesite.
+                        </p>
+                        <hr class="bg-light">
+                        <h2 class="my-3 text-center">Librería de manipulación del DOM</h2>
+                        <p>
+                            jQuery es una librería que se encarga de la manipulación directa del DOM (Document Object Model). Es decir, con jQuery y la mayoría de los métodos de su API lo que hacemos es modificar los objetos de la página, para cambiar directamente su contenido.
+                        </p>
+                        <p>
+                            En jQuery tenemos que indicar, instrucción a instrucción, qué elementos de la página queremos acceder y cómo los deseamos manipular, siendo muy específicos en seleccionar correctamente los nodos del DOM, para lo que se usan aproximadamente los mismos
+                            selectores que se conocen con CSS. Una vez seleccionamos los nodos del DOM, jQuery ofrece toda una serie de métodos orientados a la manipulación, pudiendo hacer todo tipo de operaciones imaginables, como alterar sus estilos,
+                            agregar otros nodos dentro, remover su contenido, etc.
+                        </p>
+                        <p>
+                            Esta manipulación del DOM se hace a bastante bajo nivel, desde el punto de vista de Javascript para el navegador. Es decir, estamos cambiando de manera directa los objetos que el navegador nos proporciona para poder alterar mediante ellos el aspecto o
+                            contenido de la página web. Esto quiere decir también que jQuery es una librería imperativa, en oposición a otras librerías como React que son más de un enfoque reactivo.
+                        </p>
+                        <hr class="bg-light">
+                        <h2 class="my-3 text-center">¿Es apropiado usar jQuery actualmente?</h2>
+                        <p>
+                            Mucho tiempo ha pasado desde que jQuery nació y desde entonces el panorama de los navegadores ha cambiado mucho.
+                        </p>
+                        <p>
+                            Una de las ventajas de jQuery era escribir código que funcionase igual en todos los navegadores, algo fundamental ya que en muchas ocasiones las diferencias al desarrollar Javascript entre unos y otros eran notables. El código para hacer cosas simples
+                            a veces se multiplicaba para dar soporte a todos los clientes web del mercado.
+                        </p>
+                        <p>
+                            Sin embargo hoy los navegadores afortunadamente mantienen un API Javascript bastante estándar, por lo que no es muy necesario usar una librería de por medio para cubrir las diferencias. Aún así, jQuery sigue aportando mucha utilidad. Su API de funciones
+                            permite llegar más lejos que el propio Javascript nativo, pudiendo hacer más cosas con menos código, como indica el propio lema de la librería. Solamente habría que plantearse el uso que se hace de la libreía, para saber si
+                            realmente es el suficiente para justificar la carga y el peso de su código. Es decir, si vas a usar jQuery para pocas cosas, que son fácilmente realizables con Javascript puro, quizás no es muy apropiado recargar tu página
+                            con el peso de la librería.
+                        </p>
+                        <p>Pero por otra parte debemos pensar en la infinidad de plugins jQuery que nos ayudan con funcionalidades diversas. Hay ejemplos de todo tipo, desde calendarios para seleccionar fechas y horas, campos de select con funcionalidades
+                            avanzadas, interfaces personalizadas, navegadores dinámicos, pases de diapositivas... Todos estos plugins te permiten implementar sin trabajo interfaces de usuario dinámicas, interactivas y personalizadas y están realmente
+                            bien para darle vistosidad y usabilidad a un sitio web. Por ellos, por las facilidades que te aportan y el trabajo que te quitan, sigue siendo interesante cargar jQuery.
+                        </p>
+                        <p>
+                            Además están los desarrolladores de sitios web basados en CMS como WordPress. Este CMS tiene decenas o cientos de templates extremadamente útiles que te quitan una cantidad enorme de trabajo y generalmente se basan en jQuery para implementar las interfaces
+                            dinámicas. Es otro motivo por el que jQuery hoy sigue con vida y está realmente extendido.
+                        </p>
+                    </article>
+                </article>
+                <article class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="card shadow mb-2">
+                        <div class="card-header text-dark">
+                            <h4>Lenguajes & Frameworks</h4>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                                                class="fas fa-search fa-1x text-primary"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card shadow text-center">
+                        <div class="card-header text-dark">
+                            <h4>Categorias</h4>
+                        </div>
+                        <ul class="list-group list-group-flush font-weight-bold">
+                            <li class="list-group-item">
+                                <a href="EntradasAngular.html">Angular</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="EntradasRuby.html">Ruby</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="EntradasReact.html">React</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="EntradasC++.html">C++</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="EntradasJavascript.html">Javascript</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="my-3">
+                        <iframe width="95%" height="315" src="https://www.youtube.com/embed/93v87jZUaF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe width="95%" height="315" src="https://www.youtube.com/embed/3NhdwGPDBbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <section class="bg-light container-lg container-xl py-3 mb-3" id="formulario-ema">
+            <article class="container">
+                <h4 class="text-center">Comentarios <i class="fas fa-comments"></i></h4>
+                <div class="mt-4">
+                    <button class="btn btn-primary">Me gusta <i class="fas fa-thumbs-up"></i></button><button class="btn btn-primary mx-2">Compartir <i class="fab fa-facebook-square"></i></button>
+                </div>
+                <br>
+                <h4 class="mb-4">Únete a la discusión.</h4>
+                <form class="row">
+                    <figure class="mx-sm-3 col-1"><img src="img/user.png" id="user-ema"></figure>
+                    <div class="w-25 col-9">
+                        <div>
+                            <label>Ingresa un nombre de usuario <span class="font-weight-bold text-danger">*</span></label><br>
+                            <input class="w-50 mr-md-5 font-weight-light" type="text" name="nombre-usuario" id="usuario" placeholder="Para que los demás sepan como llamarte" required>
+                        </div>
+                        <div class="mt-2">
+                            <label>Ingresa un correo electrónico <span class="font-weight-bold text-danger">*</span></label><br>
+                            <input type="email" name="email" id="email" required placeholder="Para identificarte como usuario" class="w-50 font-weight-light">
+                        </div>
+                        <div class="mt-2">
+                            <label>Deja tu comentario <span class="font-weight-bold text-danger">*</label><br>
+                            <textarea class="w-50 font-weight-light" id="comentario" name="comentario" value="0" placeholder="¿Qué opinas sobre este tópico?" oninput="validarInput()"></textarea>
+                        </div>
+                        <div class="mt-4">
+                            <button type="submit" name="comentar" id="comentar" class="btn btn-success">Comentar</button>
+                        </div><br>
+                    </div>
+                </form>
+                <hr>
+            </article>
+    </main>
+    <!-- Parte de Emanuel - Modal para Boton de Suscripcion -->
+    <div class="modal fade" id="suscribirse" tabindex="-1" aria-labelledby="suscribirseLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content px-3 modal-suscribirse-bg-ema">
+                <div>
+                    <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                </div>
+                <div class="modal-body text-light">
+                    <div class="d-flex align-items-center">
+                        <h5>¿Te gustaría recibir las últimas noticias?<br>¡Recién salidas del horno!</h5>
+                        <img src="img/bakery.svg" alt="imágen de un pan recién horneado" class="w-25">
+                    </div>
+                    <div>
+                        <p class="font-weight-light">Suscríbete a nuestro blog para ser el primero en enterarte sobre lo que está por venir...<br>También podrás elegir si quieres recibir notificaciones personalizadas.
+                        </p>
+                        <form>
+                            <div>
+                                <label class="text-primary">Por favor ingresa tu e-mail.</label>
+                                <input type="email" placeholder="mimail@gmail.com" required class="w-100">
+                            </div>
+                            <div class="my-4">
+                                <label class="font-weight-light">¿Te gustaría recibir notificaciones de algún tema en
+                                    particular?</label>
+                                <select class="font-weight-light">
+                                    <option>No tengo preferencia</option>
+                                    <option>Angular</option>
+                                    <option>React</option>
+                                    <option>Ruby</option>
+                                    <option>C++</option>
+                                    <option>JavaScript</option>
+                                    <option>jquery</option>
+                                </select>
+                            </div>
+                            <div class="mb-2">
+                                <p class="font-weight-light mb-0">¿Quieres recibir notificaciones cuando alguien te mencione o responda tus comentarios?</p>
+                                </p>
+                                <input type="radio" name="form-radio-group1" value="si" required>
+                                <label class="font-weight-light mb-0">¡Claro! por qué no.</label><br>
+                                <input type="radio" name="form-radio-group1" value="no" required>
+                                <label class="font-weight-light">No lo necesito realmente.</label>
+                            </div>
+                            <div class="d-flex">
+                                <input type="checkbox" value="acepto" required>
+                                <p class="font-weight-light mx-3">He leído las <b class="text-primary">políticas de
+                                        uso</b> y <b class="text-primary">protección de datos</b> y estoy de acuerdo en que me envíen notificaciones via mail cuando haya novedades.</p>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Suscribirme!</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin de la parte de Emanuel A.-->
+    <!-- Parte de Otto -->
+    <footer class="bg bg-dark text-light py-3">
+        <section class="container">
+            <article class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+                    <i class="fas fa-user-secret fa-4x"></i>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h5>Contactanos:</h5>
+                    <ul>
+                        <li>Email: behindthecode@blog.com</li>
+                        <li>Movil: 3815863694</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-lg-4 my-3 text-center">
+                    <h5>Encontranos en:</h5>
+                    <a href="Error404.html"><i class="fab fa-facebook-square fa-3x text-primary m-2"></i></a>
+                    <a href="Error404.html"><i class="fab fa-instagram fa-3x text-danger m-2"></i></a>
+                    <a href="Error404.html"><i class="fab fa-twitter fa-3x text-primary m-2"></i></a>
+                </div>
+            </article>
+            <p class="text-center">&copy; Todos los derechos reservados a <em>La Reina</em></p>
+        </section>
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

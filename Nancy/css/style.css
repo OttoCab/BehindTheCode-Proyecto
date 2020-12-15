@@ -1,0 +1,110 @@
+/* Parte de Nancy */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+.titulo {
+    font-family: 'Goldman',
+}
+
+.card-header {
+    background-color: #343a40;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bgMain {
+    background-image: url(./../img/imagenes/bg-login2.png);
+}
+
+@media all and ( max-width:576px) {
+    .carousel-sm-responsive {
+        object-fit: cover;
+        height: 300px;
+    }
+    .navbar-brand img {
+        width: 50px;
+    }
+    .navbar h1 {
+        font-size: 2rem;
+    }
+}
+
+
+/* Fin parte de Nancy */
+
+
+/* Parte de Emanuel A. */
+
+.bg-login-ema {
+    background-attachment: fixed;
+}
+
+#formulario-ema {
+    box-shadow: 0px 0px 40px;
+    border-radius: 10px;
+}
+
+#contenedor-login-ema {
+    margin: 10% 10%;
+}
+
+#imagen-bienvenida-ema {
+    margin-left: 10%;
+}
+
+.input-google-ema {
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+#links-google-ema {
+    text-decoration: none;
+}
+
+.input-facebook-ema {
+    border-radius: 5px;
+    height: 40px;
+}
+
+@media screen and (max-width: 1139px) and (min-width: 691px) {
+    #contenedor-login-ema {
+        flex-direction: column-reverse;
+    }
+    #formulario-ema {
+        margin-top: 10%;
+    }
+    .password-lost {
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 691px) and (min-width: 448px) {
+    #formulario-ema {
+        margin: 10% 15%;
+        width: 70%!important;
+    }
+    #contenedor-login-ema {
+        flex-direction: column-reverse;
+    }
+    .password-lost-ema {
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 448px) {
+    #formulario-ema {
+        margin: 10% 5%;
+        width: 90%!important;
+    }
+    #contenedor-login-ema {
+        flex-direction: column-reverse;
+    }
+    .password-lost-ema {
+        margin-bottom: 20%;
+    }
+}
+
+
+/* Fin de la parte de Emanuel A. */

@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5, footer, header {
+  font-family: "Goldman", cursive;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.scroll {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.bg-login-ema {
+  background-attachment: fixed;
+}
+
+#formulario-ema {
+  box-shadow: 0px 0px 40px;
+  border-radius: 10px;
+}
+
+#contenedor-login-ema {
+  margin: 10% 10%;
+}
+
+#imagen-bienvenida-ema {
+  margin-left: 10%;
+}
+
+.input-google-ema {
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+#links-google-ema {
+  text-decoration: none;
+}
+
+.input-facebook-ema {
+  border-radius: 5px;
+  height: 40px;
+}
+
+.modal-suscribirse-bg-ema {
+  background: rgb(22, 22, 22);
+  background: linear-gradient(
+    32deg,
+    rgba(22, 22, 22, 1) 16%,
+    rgba(45, 45, 45, 1) 40%,
+    rgba(50, 50, 50, 1) 46%,
+    rgba(59, 59, 59, 1) 56%,
+    rgba(35, 88, 39, 1) 89%
+  );
+}
+
+#user-ema {
+  width: 130%;
+}
+
+.usuario2-ema {
+  margin-top: 20px;
+}
+
+.usuario3-ema {
+  margin-top: 110px;
+}
+
+.fondo-johnny{
+  background-image: url("/img/fondo-johnny.jpg");
+ background-size: cover ;
+
+}
+
+.fondo-emi{
+ background-image: url("/img/fondo-emi.jpg");
+ background-size: cover ;
+}
+
+.fondo-mario{
+  background-image: url("/img/fondomario.jpg")
+ }
+
+ .tamtext{
+   font-size: 150%;
+ }
+
+@media screen and (max-width: 1139px) and (min-width: 691px) {
+  #contenedor-login-ema {
+    flex-direction: column-reverse;
+  }
+  #formulario-ema {
+    margin-top: 10%;
+  }
+  .password-lost {
+    margin-bottom: 20%;
+  }
+}
+
+@media screen and (max-width: 691px) and (min-width: 448px) {
+  #formulario-ema {
+    margin: 10% 15%;
+    width: 70% !important;
+  }
+  #contenedor-login-ema {
+    flex-direction: column-reverse;
+  }
+  .password-lost-ema {
+    margin-bottom: 20%;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  #formulario-ema {
+    margin: 10% 5%;
+    width: 90% !important;
+  }
+  #contenedor-login-ema {
+    flex-direction: column-reverse;
+  }
+  .password-lost-ema {
+    margin-bottom: 20%;
+  }
+}
